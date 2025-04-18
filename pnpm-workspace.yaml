@@ -1,0 +1,5 @@
+onlyBuiltDependencies:
+  - classic-level
+  - esbuild
+  - keccak
+  - secp256k1

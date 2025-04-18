@@ -1,0 +1,30 @@
+{
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules"],
+
+    "compilerOptions": {
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "esModuleInterop": true,
+        "target": "es2024",
+        "incremental": true,
+        "outDir": ".build",
+        "tsBuildInfoFile": ".build/incremental.tsbuildinfo",
+        "strict": true,
+        "alwaysStrict": true,
+        "isolatedModules": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitOverride": true,
+        "strictNullChecks": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "verbatimModuleSyntax": true,
+        "skipLibCheck": true
+    }
+}
